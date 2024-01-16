@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.main{
+    background-color: #f2f4f8;
+    width:252px;
+    height: 388px;
+    background-color:#ffffff;
+    margin-left: 15px;
+}
+
+.main  .save{
+    background-color: #6e2594;
+    color: #fff;
+    display: inline-block;
+    border-radius: 0 15px 15px 0;
+    width: 100px;
+    height:22px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 2px;
+}
+.product_details{
+    width: 230px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: 400px;
+}
+.product_details a{
+    text-decoration: none;
+    color:black;
+}
+.product_details a:hover{
+    text-decoration:underline;
+    color:red;
+}
+
+.price #new_price{
+    font-size: 20px;
+    color:red;
+}
+.price #old_price{
+    font-size: 15px;
+    padding-left: 10px;
+    text-decoration: line-through;
+    color:gray;
+}
